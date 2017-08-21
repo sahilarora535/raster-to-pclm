@@ -29,7 +29,8 @@ for ppd in os.listdir(PPD_DIR):
   filename = os.path.splitext(ppd)[0]
   strip_height = filename.split("-")[0]
   dpi = filename.split("-")[1]
-  pclm_dir = os.path.join(PCLM_ROOT_DIR, strip_height, dpi)
+  compression_method = filename.split("-")[2]
+  pclm_dir = os.path.join(PCLM_ROOT_DIR, strip_height, compression_method)
   raster_dir = os.path.join(RASTER_ROOT_DIR, dpi)
   if not os.path.exists(pclm_dir):
     os.makedirs(pclm_dir)
