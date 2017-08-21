@@ -79,7 +79,7 @@
 *ColorModel RGB/Color: "<</cupsColorSpace 19/cupsBitsPerColor 8/cupsColorOrder 0/cupsCompression 0>>setpagedevice"
 *DefaultColorModel: RGB
 *CloseUI: *ColorModel
-*DefaultResolution: 300dpi
+*DefaultResolution: 600dpi
 *OpenUI *cupsPrintQuality/Print Quality: PickOne
 *OrderDependency: 10 AnySetup *cupsPrintQuality
 *DefaultcupsPrintQuality: Normal

@@ -1,0 +1,89 @@
+*PPD-Adobe: "4.3"
+*FormatVersion: "4.3"
+*FileVersion: "2.2"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*FileSystem: False
+*PCFileName: "ippeve.ppd"
+*Manufacturer: "HP"
+*ModelName: "Deskjet 2540 series"
+*Product: "(Deskjet 2540 series)"
+*NickName: "Deskjet 2540 series"
+*ShortNickName: "Deskjet 2540 series"
+*ColorDevice: True
+*cupsVersion: 2.2
+*cupsSNMPSupplies: False
+*cupsLanguages: "en"
+*cupsFilter2: "image/jpeg image/jpeg 10 -"
+*cupsFilter2: "application/PCLm application/PCLm 10 -"
+*cupsFilter2: "image/urf image/urf 10 -"
+*cupsPclmSourceResolutionSupported: "300dpi,600dpi"
+*cupsPclmSourceResolutionDefault: 600dpi
+*cupsPclmStripHeightSupported: 16
+*cupsPclmStripHeightPreferred: 16
+*cupsPclmRasterBackSide: rotated
+*cupsPclmCompressionMethodPreferred: "rle"
+*OpenUI *PageSize: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: A4
+*PageSize Letter: "<</PageSize[612 792]>>setpagedevice"
+*PageSize 8x10: "<</PageSize[576 720]>>setpagedevice"
+*PageSize A4: "<</PageSize[595.275590551181 841.889763779528]>>setpagedevice"
+*PageSize Executive: "<</PageSize[522 756]>>setpagedevice"
+*PageSize Legal: "<</PageSize[612 1008]>>setpagedevice"
+*PageSize A6: "<</PageSize[297.637795275591 419.527559055118]>>setpagedevice"
+*PageSize EnvC5: "<</PageSize[459.212598425197 649.133858267717]>>setpagedevice"
+*PageSize ISOB5: "<</PageSize[498.897637795276 708.661417322835]>>setpagedevice"
+*CloseUI: *PageSize
+*OpenUI *PageRegion: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: A4
+*PageRegion Letter: "<</PageSize[612 792]>>setpagedevice"
+*PageRegion 8x10: "<</PageSize[576 720]>>setpagedevice"
+*PageRegion A4: "<</PageSize[595.275590551181 841.889763779528]>>setpagedevice"
+*PageRegion Executive: "<</PageSize[522 756]>>setpagedevice"
+*PageRegion Legal: "<</PageSize[612 1008]>>setpagedevice"
+*PageRegion A6: "<</PageSize[297.637795275591 419.527559055118]>>setpagedevice"
+*PageRegion EnvC5: "<</PageSize[459.212598425197 649.133858267717]>>setpagedevice"
+*PageRegion ISOB5: "<</PageSize[498.897637795276 708.661417322835]>>setpagedevice"
+*CloseUI: *PageRegion
+*DefaultImageableArea: A4
+*DefaultPaperDimension: A4
+*ImageableArea Letter: "9.014173228346 40.762204724409 602.985826771654 787.691338582677"
+*PaperDimension Letter: "612 792"
+*ImageableArea 8x10: "9.014173228346 40.762204724409 566.985826771654 715.691338582677"
+*PaperDimension 8x10: "576 720"
+*ImageableArea A4: "9.014173228346 40.762204724409 586.261417322835 837.581102362205"
+*PaperDimension A4: "595.275590551181 841.889763779528"
+*ImageableArea Executive: "9.014173228346 40.762204724409 512.985826771654 751.691338582677"
+*PaperDimension Executive: "522 756"
+*ImageableArea Legal: "9.014173228346 40.762204724409 602.985826771654 1003.691338582677"
+*PaperDimension Legal: "612 1008"
+*ImageableArea A6: "9.014173228346 40.762204724409 288.623622047244 415.218897637795"
+*PaperDimension A6: "297.637795275591 419.527559055118"
+*ImageableArea EnvC5: "9.014173228346 40.762204724409 450.19842519685 644.825196850394"
+*PaperDimension EnvC5: "459.212598425197 649.133858267717"
+*ImageableArea ISOB5: "9.014173228346 40.762204724409 489.883464566929 704.352755905512"
+*PaperDimension ISOB5: "498.897637795276 708.661417322835"
+*OpenUI *MediaType: PickOne
+*OrderDependency: 10 AnySetup *MediaType
+*DefaultMediaType: Stationery
+*MediaType PhotographicGlossy/Glossy Photo Paper: "<</MediaType(PhotographicGlossy)>>setpagedevice"
+*MediaType Stationery/Stationery: "<</MediaType(Stationery)>>setpagedevice"
+*MediaType Transparency/Transparency: "<</MediaType(Transparency)>>setpagedevice"
+*CloseUI: *MediaType
+*OpenUI *ColorModel/Color Mode: PickOne
+*OrderDependency: 10 AnySetup *ColorModel
+*ColorModel RGB/Color: "<</cupsColorSpace 19/cupsBitsPerColor 8/cupsColorOrder 0/cupsCompression 0>>setpagedevice"
+*DefaultColorModel: RGB
+*CloseUI: *ColorModel
+*DefaultResolution: 600dpi
+*OpenUI *cupsPrintQuality/Print Quality: PickOne
+*OrderDependency: 10 AnySetup *cupsPrintQuality
+*DefaultcupsPrintQuality: Normal
+*cupsPrintQuality Draft/Draft: "<</HWResolution[300 150]>>setpagedevice"
+*cupsPrintQuality Normal/Normal: "<</HWResolution[300 300]>>setpagedevice"
+*cupsPrintQuality High/High: "<</HWResolution[600 600]>>setpagedevice"
+*CloseUI: *cupsPrintQuality
