@@ -84,6 +84,6 @@
 *OrderDependency: 10 AnySetup *cupsPrintQuality
 *DefaultcupsPrintQuality: Normal
 *cupsPrintQuality Draft/Draft: "<</HWResolution[300 150]>>setpagedevice"
-*cupsPrintQuality Normal/Normal: "<</HWResolution[300 300]>>setpagedevice"
+*cupsPrintQuality Normal/Normal: "<</HWResolution[600 600]>>setpagedevice"
 *cupsPrintQuality High/High: "<</HWResolution[600 600]>>setpagedevice"
 *CloseUI: *cupsPrintQuality
