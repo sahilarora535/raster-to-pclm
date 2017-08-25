@@ -2,4 +2,4 @@ all:
 		./main.py
 
 clean:
-		rm -r ./pclm-files/*
+		${RM} -r ./pclm-files/*

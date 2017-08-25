@@ -26,7 +26,7 @@
 *cupsPclmStripHeightSupported: 64
 *cupsPclmStripHeightPreferred: 64
 *cupsPclmRasterBackSide: rotated
-*cupsPclmCompressionMethodPreferred: "jpeg,rle"
+*cupsPclmCompressionMethodPreferred: "rle"
 *OpenUI *PageSize: PickOne
 *OrderDependency: 10 AnySetup *PageSize
 *DefaultPageSize: A4
